@@ -1,20 +1,32 @@
 body{
-    background-color: #b9b9b9;
+    background-color: white;
 }
 h1{
-    font-size: 60px;
-    color:#382c2f;
     text-align: center;
+    color:black;
+    font-size: 45px;
 }
 p{
-    font-size: 30px;
-    color:#3e0a07;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: justify;
+    text-align: center;
+    color: gray;
+    font-size: 25px;
 }
 img{
-    width: 200px;
-    height: 200px;
-    margin: 200px;
-    margin-left: 130px;
+    width: 400px;
+    margin-left: 300px;
+}
+.cabecalho{
+background-color: rgb(48, 47, 47);
+display: flex;
+}
+.listacabecalho{
+display: flex;
+margin-left: 460px;
+margin-top: 100px;
+}
+.itemlistacabecalho{
+    list-style: none;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
 }
